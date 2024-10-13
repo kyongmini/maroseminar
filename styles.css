@@ -1,0 +1,164 @@
+/* Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style for the body */
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Container class for wrapping content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #0052cc;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+header h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 0;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #0052cc;
+}
+
+/* Introduction section styling */
+.introduction p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Schedule section styling */
+.schedule ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.schedule li {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 18px;
+    transition: transform 0.2s ease;
+}
+
+.schedule li:hover {
+    transform: translateY(-5px);
+}
+
+.schedule a {
+    color: #0052cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.schedule a:hover {
+    text-decoration: underline;
+}
+
+/* Contents section styling */
+.contents p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Team photo section styling */
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #0052cc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Mobile responsive styling */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .introduction p, .contents p {
+        font-size: 16px;
+    }
+
+    .schedule li {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .photo img {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
